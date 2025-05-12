@@ -1,0 +1,22 @@
+.theme-light {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+.theme-dark {
+  background-color: #1e1e1e;
+  color: #f9f9f9;
+}
+
+.theme-colorful {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  color: #333;
+}
+.theme-dark * {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+.theme-colorful * {
+  background-color: transparent !important;
+  color: inherit !important;
+}
