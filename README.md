@@ -31,7 +31,7 @@ A single-page React app (built with Vite) for customizing print-on-demand T-shir
 
 ## ✅ Live Demo
 
-👉 [https://t-shirt-customizer-byp.pages.dev/](https://t-shirt-customizer-byp.pages.dev/)
+👉 [https://t-shirt-customize-shruti.pages.dev/](https://t-shirt-customize-shruti.pages.dev/)
 
 ## 🕒 Interview Availability
 
