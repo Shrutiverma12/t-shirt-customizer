@@ -7,12 +7,10 @@ import ImageUplaoder from './components/ImagePanel';
 import TextInputArea from './components/TextInputArea';
 import { themes } from './themes.js';
 
-//const themes = ['theme-light', 'theme-dark', 'theme-colorful'];
-
 function App() {
   const [themeIndex, setThemeIndex] = useState(0);
-  const [imageURL, setImageURL] = useState('src/assets/t-shirt.jpg'); // Default image
-  const [previewURL, setPreviewURL] = useState('src/assets/t-shirt.jpg');
+  const [imageURL, setImageURL] = useState('/t-shirt.jpg'); // Default image
+  const [previewURL, setPreviewURL] = useState('/t-shirt.jpg');
   const { register, handleSubmit, watch, setValue } = useForm({
     defaultValues: {
       height: '180cm',
